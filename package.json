@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-plugin-lead-forensics",
+  "version": "0.0.1",
+  "description": "Gatsby plugin to add Lead Forensics to your site",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leibowitz/gatsby-plugin-lead-forensics.git"
+  },
+  "author": "Gianni Moschini",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "cross-env": "^7.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2"
+  }
+}
