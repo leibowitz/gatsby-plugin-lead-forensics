@@ -15,7 +15,7 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "watch": "babel -w src --out-dir .",
-    "prepublish": "cross-env NODE_ENV=production npm run build"
+    "prepublishOnly": "cross-env NODE_ENV=production npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
